@@ -1,0 +1,28 @@
+# ignore all slop
+*
+
+
+## whitelist only
+!.gitignore
+!/.gitmodules
+
+# docs, agent rules
+!README.md
+!AGENTS.md
+
+# reference material (clones and specs) stays local, never tracked
+!ref/
+!ref/SOURCES.md
+
+# learning notes
+!learn/
+!learn/**
+
+# docs reviews and plans
+!docs/
+!docs/**
+
+# nix
+!flake.nix
+!flake.lock
+!**/*.nix
